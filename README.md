@@ -3,6 +3,10 @@
 
 A Python library that acts as a bridge between a TCP server and WebSocket clients. This adapter listens for incoming WebSocket connections and forwards data between a TCP server and connected WebSocket clients, as well as forwards messages from WebSocket clients to the TCP server.
 
+## Why I Created This
+
+I created this library because I needed a way to connect to an old device that only supports a TCP socket connection, but I wanted to interact with it via WebSocket (for use with a browser-based client). Since no straightforward solution existed for this problem, I built this library to bridge the gap between TCP socket and WebSocket communication. If you're facing the same challenge, this adapter might be just what you need!
+
 ## Features
 
 - Bridges TCP communication to WebSocket clients.
